@@ -23,8 +23,12 @@ header{
 .logo{
   display:block;
   margin:20px auto;
-  width:100px;
+  max-width:200px;   /* adjust size as needed */
+  width:100%;
+  height:auto;       /* THIS prevents cropping */
+  object-fit:contain;
 }
+
 .about{
   max-width:900px;
   margin:20px auto;
